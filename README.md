@@ -1,6 +1,6 @@
 # Hospital-Management-System
 
-Sistema-Salud
+
 
 🏥 Hospital & Patient Management – Stack & Queue (GUI Version)
 
