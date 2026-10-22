@@ -47,23 +47,6 @@ Patient Transfer (between hospitals):
 - Input validation with regular expressions and custom logic
 - MessageBox used **only** for validations and error messages
 
-📂 Project Structure
-
-Paciente.java → patient model: id, name, attention type
-Hospital.java → hospital model: id, name, and its own patient queue
-TipoAtencion.java → enum or constants for attention types (Consulta, Emergencia, Cirugía)
-ColaPacientes.java → FIFO queue implementation using a circular array of size 20
-PilaHospitales.java → LIFO stack implementation using a fixed-size array of size 20
-GestorHospitales.java → bridges the GUI and the data structures; coordinates logic and returns success/error messages
-Validaciones.java → standalone validations (empty fields, ID generation, capacity checks)
-Main.java → entry point of the application
-VentanaPrincipal.java → main menu/dashboard
-VentanaRegistroHospital.java → GUI for registering hospitals
-VentanaEliminacionHospital.java → GUI for LIFO hospital deletion
-VentanaRegistroPacientes.java → GUI for registering patients in a selected hospital
-VentanaEliminacionPaciente.java → GUI for FIFO patient deletion
-VentanaTraslados.java → GUI for transferring patients between hospitals
-
 📊 Example Outputs
 
 Hospital Stack (LIFO):
