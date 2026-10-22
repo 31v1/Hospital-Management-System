@@ -54,3 +54,17 @@ Hospital Deletion (LIFO):
 - Object-oriented layered architecture (models → logic → GUI)
 - Input validation (empty fields, capacity limits, queue/stack states)
 - MessageBox used **only** for validations and error messages (never for success or data input)
+
+🎯 Learning Outcomes
+
+This project demonstrates:
+
+- Implementing a Stack (LIFO) and a Queue (FIFO) from scratch using only fixed-size arrays and references
+- Managing per-hospital queues within a global stack of hospitals
+- Applying capacity and state validations (stack full/empty, queue full/empty, destination capacity)
+- Designing a layered architecture (models → logic → GUI)
+- Building a fully graphical Java Swing interface without console input
+- Enforcing business rules such as FIFO transfer with ID reassignment and LIFO deletion restricted to empty queues
+- Handling edge cases and mandatory validations required by the course rubric
+
+👩‍💻 Author: Elvia Sanchez Leiva 📚 Course: Data Structures – UNE
